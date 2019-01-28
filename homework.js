@@ -83,25 +83,9 @@ if (value === 'hidden') {
 
 //a. Если переменная равна нулю, присвоить ей 1;
 
-let variable = 12;
-if (variable === 0) {
-variable = 1;
-}
-
 //b. Если меньше нуля - строку “less then zero”;
 
-let variable = 12;
-if (variable < 0) {
-	variable = 'less than zero';
-}
-
 //c. Если больше нуля - используя оператор “присвоение”, переменную умножить на 10 (использовать краткую запись).
-
-let variable = 12;
-if (variable > 0) {
-	variable *= 10;
-}
-
 
 // a+b+c
 
@@ -192,13 +176,17 @@ console.log(‘inline’)
 a = 'inline';
 
 switch (a) {
- case 'block': console.log('block');
+ case 'block': 
+ 	console.log('block');
 	break;
- case 'none': console.log('none');
+ case 'none': 
+ 	console.log('none');
 	break;
- case 'inline': console.log('inline');
+ case 'inline': 
+ 	console.log('inline');
  	break;
- default: console.log('other');
+ default: 
+ 	console.log('other');
  	break;
 }
 
